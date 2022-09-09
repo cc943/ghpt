@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GHPT</id>
+    <version>1.0.0</version>
+    <authors>GHPT</authors>
+    <description>Package Description</description>
+    <repository url="https://github.com/cc943/ghpt/" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Peter.Lee\RiderProjects\GHPT\GHPT\bin\Release\netstandard2.1\GHPT.dll" target="lib\netstandard2.1\GHPT.dll" />
+  </files>
+</package>
