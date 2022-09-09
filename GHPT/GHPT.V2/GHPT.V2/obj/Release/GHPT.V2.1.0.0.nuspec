@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GHPT.V2</id>
+    <version>1.0.0</version>
+    <authors>Octocat</authors>
+    <description>This package adds an Octocat!</description>
+    <repository url="https://github.com/cc943/ghpt/" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\src\ghpt\GHPT\GHPT.V2\GHPT.V2\bin\Release\netstandard2.1\GHPT.V2.dll" target="lib\netstandard2.1\GHPT.V2.dll" />
+  </files>
+</package>

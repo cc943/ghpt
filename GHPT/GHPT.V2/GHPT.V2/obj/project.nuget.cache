@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ztv1qjDhXNbpThelHQsD4ncBtnCB4VUqMTIpUEyNi72BZNtM3KOGy+9fWw707LJhumfLSbTz/XcV2aKZIeNWBg==",
+  "success": true,
+  "projectFilePath": "C:\\src\\ghpt\\GHPT\\GHPT.V2\\GHPT.V2\\GHPT.V2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Peter.Lee\\.nuget\\packages\\ghpt\\1.0.0\\ghpt.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
