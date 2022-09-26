@@ -4,6 +4,6 @@ namespace GHPT
 {
     public class Ghpt
     {
-        public const string Name = "Github Package Test Nuget testt";
+        public const string Name = "Github Package Test Nuget testsst";
     }
 }
