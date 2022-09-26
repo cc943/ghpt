@@ -22,4 +22,4 @@ jobs:
             toi/
           ignoreLabels: |
             dependabot
-          headerPattern: '^[a-zA-Z]+/'
+          headerPattern: '^(\w*)(?:\(([\w$.\-*/ ]*)\))?/(.*)$'
