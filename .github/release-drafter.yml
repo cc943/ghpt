@@ -1,0 +1,13 @@
+﻿name-template: 'v$RESOLVED_VERSION 🌈'
+tag-template: 'v$RESOLVED_VERSION'
+categories:
+  - title: 🚀 Features
+    label: feature
+  - title: 🐛 Bug Fixes
+    label: maintenance
+  - title: 🔥 Technical Improvements
+    label: toi
+template: |
+  ## What’s Changed
+
+  $CHANGES
