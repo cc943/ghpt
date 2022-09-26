@@ -24,7 +24,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/cc943/index.json": {}
+          "https://teamcity.unleashed.kiwi/httpAuth/app/nuget/v1/FeedService.svc": {}
         },
         "frameworks": {
           "netstandard2.1": {
