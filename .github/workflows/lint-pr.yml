@@ -17,9 +17,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           types: |
-            maintenance/
-            feature/
-            toi/
+            maintenance
+            feature
+            toi
           ignoreLabels: |
             dependabot
           headerPattern: '^(\w*)(?:\(([\w$.\-*/ ]*)\))?/(.*)$'
