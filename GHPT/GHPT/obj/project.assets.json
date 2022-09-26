@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\src\\ghpt\\GHPT\\GHPT.csproj",
+      "projectUniqueName": "C:\\src\\ghpt\\GHPT\\GHPT\\GHPT.csproj",
       "projectName": "GHPT",
-      "projectPath": "C:\\src\\ghpt\\GHPT\\GHPT.csproj",
+      "projectPath": "C:\\src\\ghpt\\GHPT\\GHPT\\GHPT.csproj",
       "packagesPath": "C:\\Users\\Peter.Lee\\.nuget\\packages\\",
-      "outputPath": "C:\\src\\ghpt\\GHPT\\obj\\",
+      "outputPath": "C:\\src\\ghpt\\GHPT\\GHPT\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\src\\ghpt\\NuGet.Config",
