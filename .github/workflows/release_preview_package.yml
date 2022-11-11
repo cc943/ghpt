@@ -28,3 +28,6 @@ jobs:
 
       - name: Set VERSION env
         run: echo "VERSION=${{needs.update_release_draft.outputs.tag}}-preview.$(date +'%Y.%m.%d.%H.%M.%S')" >> $GITHUB_ENV
+
+      - name: dump env
+        run: echo "$VERSION"
