@@ -2,7 +2,7 @@ name: Release Preview Package
 on:
   push:
     branches:
-      - master
+      - main
 ## Testt
 
 env:
