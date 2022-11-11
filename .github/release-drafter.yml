@@ -1,12 +1,29 @@
 ﻿name-template: 'v$RESOLVED_VERSION 🌈'
+
 tag-template: 'v$RESOLVED_VERSION'
+
 categories:
-  - title: 🚀 Features
+  - title: 🚀 Features and Enhancements
     label: feature
-  - title: 🐛 Bug Fixes
+  - title: 🧰 Maintenance
     label: maintenance
   - title: 🔥 Technical Improvements
     label: toi
+  - title: ✨ Dependency Upgrades
+    label: dependencies
+
+version-resolver:
+  major:
+    labels:
+      - 'major'
+  minor:
+    labels:
+      - 'minor'
+  patch:
+    labels:
+      - 'patch'
+  default: patch
+
 template: |
   ## What’s Changed
 
