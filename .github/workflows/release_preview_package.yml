@@ -14,11 +14,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: release-drafter/release-drafter@v5
+      - id: release-drafter        
+        uses: release-drafter/release-drafter@v5  
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
       - name: Set VERSION env
-        run: echo "VERSION=${{needs.update_release_draft.outputs.tag_name}}-preview.$(date +'%Y.%m.%d.%H.%M.%S')" >> $GITHUB_ENV
+        run: echo "VERSION=${{steps.release-drafter.outputs.tag_name}}-preview.$(date +'%Y.%m.%d.%H.%M.%S')" >> $GITHUB_ENV
+        
+      - name: dump env
+        run: echo "$VERSION"
 
   release-preview-package:
     runs-on: ubuntu-latest
