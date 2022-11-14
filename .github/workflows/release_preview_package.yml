@@ -18,12 +18,12 @@ jobs:
         uses: release-drafter/release-drafter@v5  
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+
       - name: Set VERSION env
-        run: echo "VERSION=${{steps.release-drafter.outputs.tag_name}}-preview.$(date +'%Y.%m.%d.%H.%M.%S')" >> $GITHUB_ENV
-        
-      - name: dump env
-        run: echo "$VERSION"
+        run: echo "VERSION=${${{steps.release-drafter.outputs.tag_name}}#?}-beta${GITHUB_RUN_NUMBER}" >> $GITHUB_ENV
+
+      - name: dump VERSION env
+        run: echo $VERSION
 
   release-preview-package:
     runs-on: ubuntu-latest
