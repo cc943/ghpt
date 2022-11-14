@@ -20,7 +20,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set VERSION env
-        run: TAG=${{steps.release-drafter.outputs.tag_name}} echo "VERSION=${TAG#v}-beta${GITHUB_RUN_NUMBER}" >> $GITHUB_ENV
+        run: |
+          TAG=${{steps.release-drafter.outputs.tag_name}} 
+          echo "VERSION=${TAG#v}-beta${GITHUB_RUN_NUMBER}" >> $GITHUB_ENV
+          echo $VERSION
+        shell: bash
 
       - name: dump VERSION env
         run: echo $VERSION
